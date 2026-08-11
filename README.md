@@ -18,19 +18,20 @@
 
 ## 紫微知道产品生态
 
-紫微知道（Ziwei Knows）由三款平级、互补的开源产品组成。它们服务不同的探索方式，不要求账号、命盘或数据互通。
+紫微知道（Ziwei Knows）由四款平级、互补的开源产品组成。它们服务不同的探索方式，不要求账号、命盘或数据互通。
 
 | 产品 | 适合什么需求 | 访问 |
 | --- | --- | --- |
 | **Ziwei Chart** | 想准确排盘、浏览十二宫、流年、合盘和长期趋势。 | [在线体验](https://zwknows.vercel.app/) · [GitHub](https://github.com/ziweiknows/ziwei-chart) |
 | **Ziwei Chat** | 已有命盘，想围绕事业、关系、财富或近况继续追问。 | [在线体验](https://ziweichat.vercel.app/) · [GitHub](https://github.com/ziweiknows/ziwei-chat) |
 | **ZATI** `当前产品` | 不想先填写出生信息，想通过行为选择探索人格原型。 | [在线体验](https://zati-kappa.vercel.app/) · [GitHub](https://github.com/ziweiknows/zati) |
+| **Ziwei Draw** | 想通过亲手抽牌布阵的仪式感，获得当下问题的觉察视角。 | 即将上线 · [GitHub](https://github.com/ziweiknows/ziwei-card) |
 
-如果你想进一步从命盘理解自己的特质，可以探索 [Ziwei Chart](https://zwknows.vercel.app/)；如果你已经有命盘并想讨论一个现实问题，可以使用 [Ziwei Chat](https://ziweichat.vercel.app/)。它们是互补选择，不是完成 ZATI 的必要前置或后续步骤。
+如果你想进一步从命盘理解自己的特质，可以探索 [Ziwei Chart](https://zwknows.vercel.app/)；如果你已经有命盘并想讨论一个现实问题，可以使用 [Ziwei Chat](https://ziweichat.vercel.app/)；如果你想通过仪式感在当下获得觉察，打开 [Ziwei Draw](https://github.com/ziweiknows/ziwei-card)。它们是互补选择，不是完成 ZATI 的必要前置或后续步骤。
 
 ## 这是什么
 
-ZATI 不替你算命，也不把人格变成诊断、能力排名或命运结论。它以固定的四维行为问卷为基础，让用户在完整的生活情境与两种可比较的反应之间做选择，并将结果映射为十六张“本命人格牌”。
+ZATI 不替你算命，也不把人格变成诊断、能力排名或命运结论。它以固定的四维行为问卷为基础，让用户在完整的生活情境与两种可比较的反应之间做选择，并将结果映射为十六张"本命人格牌"。
 
 报告不只给出一个标签，还会呈现你的命核、四维人格轴、正位之力、逆位之影、工作方式、关系方式与成长任务。
 
@@ -68,7 +69,7 @@ ZATI 不替你算命，也不把人格变成诊断、能力排名或命运结论
 
 24 题极速测试适合快速获得初步型格结果；56 题标准测试覆盖更多情境，用于生成更完整的正式报告。两者都使用同一套四维人格框架。
 
-### 为什么每题使用 1 到 6，而不是“同意/不同意”？
+### 为什么每题使用 1 到 6，而不是"同意/不同意"？
 
 每题先提供左右两种完整反应。`1–3` 表示更接近左侧，`4–6` 表示更接近右侧；数字表达偏向强度，而不是答案的对错。
 
@@ -78,11 +79,11 @@ ZATI 不替你算命，也不把人格变成诊断、能力排名或命运结论
 
 ### ZATI 与 Ziwei Chart、Ziwei Chat 的关系是什么？
 
-三者是平级产品。ZATI 从行为选择观察人格倾向；[Ziwei Chart](https://github.com/ziweiknows/ziwei-chart) 用于浏览紫微命盘；[Ziwei Chat](https://github.com/ziweiknows/ziwei-chat) 用于围绕命盘事实进行对话。它们当前不共享结果或用户数据。
+三者是平级产品。ZATI 从行为选择观察人格倾向；[Ziwei Chart](https://github.com/ziweiknows/ziwei-chart) 用于浏览紫微命盘；[Ziwei Chat](https://github.com/ziweiknows/ziwei-chat) 用于围绕命盘事实进行对话；[Ziwei Draw](https://github.com/ziweiknows/ziwei-card) 用于通过卡牌仪式获得当下觉察。它们当前不共享结果或用户数据。
 
 ## 设计立场
 
-ZATI 的视觉系统“曜序”建立在深色数字工具的秩序感之上：曜黑背景、月白正文、星金主行动，以及低干扰的东方仪式感。
+ZATI 的视觉系统"曜序"建立在深色数字工具的秩序感之上：曜黑背景、月白正文、星金主行动，以及低干扰的东方仪式感。
 
 我们有意避开：
 
@@ -145,4 +146,4 @@ MVP 主流程已完成：首页、快速/标准测试、人格揭晓、结果报
 
 ---
 
-<p align="center">如果 ZATI 对你有帮助，欢迎关注项目，也欢迎探索紫微知道的 <a href="https://github.com/ziweiknows/ziwei-chart">Ziwei Chart</a> 与 <a href="https://github.com/ziweiknows/ziwei-chat">Ziwei Chat</a>。</p>
+<p align="center">如果 ZATI 对你有帮助，欢迎关注项目，也欢迎探索紫微知道的 <a href="https://github.com/ziweiknows/ziwei-chart">Ziwei Chart</a>、<a href="https://github.com/ziweiknows/ziwei-chat">Ziwei Chat</a> 与 <a href="https://github.com/ziweiknows/ziwei-card">Ziwei Draw</a>。</p>
